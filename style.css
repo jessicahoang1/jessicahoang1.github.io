@@ -1,0 +1,305 @@
+/* deafult style */
+.container{
+    max-width: 1140px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items:center;
+}
+
+
+/* header section */ 
+.header {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index:99;
+    border-bottom: 1px solid rgba(255,255,255,0.1)
+}
+
+.header .logo{
+    padding:0 0px;
+    /*margin-left: -120px;*/
+}
+
+.header .logo a{
+    font-size: 30px;
+    color: black; 
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    letter-spacing: 1px;
+    line-height: 80px;
+    height: 35px;
+}
+
+.header .nav{
+    padding:0 15px;
+    /*margin-right: -120px;*/
+}
+
+.header .nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.header .nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header .nav ul li a{
+    display: inline;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:50px 0;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    transition:color 0.5s ease;
+}
+
+/* Homepage Image Section */
+
+.image-section {
+    width: 100%; 
+    height: 800px; 
+    overflow: hidden;
+}
+
+.image-section .container .image-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-section .container .image-content h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image-section .container .image-content a{
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #586A66;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    padding:5px 30px;
+    margin: 0px 0 0;
+}
+      
+.image-section .container .image-content a:hover {
+    background-color: #586A66 ;
+    color: white;
+}
+
+/* Welcome Section */
+.welcome-section .container .welcome-title {
+    text-align: center;
+}
+
+.welcome-section .container .welcome-title p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 80px 0 80px;
+}
+
+/* Our Team Section */
+.team-section {
+    padding-top: 73px;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.team-section .container .team-content {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-section .container .team-content h1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+
+
+}
+
+/* Meet Our Executive Section*/
+.executive-section .container .executive-title {
+    text-align: center;
+}
+
+.executive-section .container .executive-title h1{
+    color:#3B493C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 80px 0 80px;
+}
+
+/* Each Person Section*/
+.person-section .container .person {
+    align-items: center;
+    width: 100%;
+}
+
+.person-section .container .person .person-item {
+    width: 30%;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+/* Table Section */
+.table-section {
+    padding-top: 73px;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.table-section .container .table-content {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table-section .container .table-content h1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+.trail-section .container .trail-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.trail-section .container .trail-item table, th, td {
+    border: 1px solid black;
+}
+
+/* Checklist Section */
+.checklist-section {
+    padding-top: 73px;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.checklist-section .container .checklist-content {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checklist-section .container .checklist-content h1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+  
+/* essentials section*/
+.essentials-section {
+    align-items: center;
+}
+
+.essentials-section .container .essentials-item h1{
+    padding-left: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+
+}
+
+.essentials-section .container .essentials-item ol{
+    padding-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+/* video section*/
+.video-section .container .video-player{
+    padding-left: 150px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding-top: 73px;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.contact-section .container .contact-content {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-section .container .contact-content h1{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+  
+.content-section {
+    text-align: center;
+}
+
+.content-section .container .content-title h2 {
+    color:#3B493C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.content-section .container .content-title p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* end section */
+.end-section .end{
+    padding: 20px 0 10px;
+    background-color: #3B493C;
+
+}
+
+.end-section .end p{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
