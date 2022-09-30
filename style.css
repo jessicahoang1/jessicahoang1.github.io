@@ -198,8 +198,8 @@
 }
 
 .trail-section .container .trail-item {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 155px;
 }
 .trail-section .container .trail-item table, th, td {
     border: 1px solid black;
@@ -283,11 +283,13 @@
     color:#3B493C;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+    margin-top: 50px;
 }
 
 .content-section .container .content-title p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    margin-bottom: 245px;
 }
 
 /* end section */
