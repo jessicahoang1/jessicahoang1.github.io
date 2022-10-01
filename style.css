@@ -72,6 +72,15 @@
     transition:color 0.5s ease;
 }
 
+.header .nav ul li a.active {
+    color:#586A66;
+    text-decoration:underline;
+  }
+
+.header .nav ul li a:hover {
+    text-decoration:underline;
+}
+
 /* Homepage Image Section */
 
 .image-section {
