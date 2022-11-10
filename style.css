@@ -1,0 +1,92 @@
+body {
+    padding: 0px;
+    margin: 0;   
+    background-color: white;
+    text-align: center;
+}
+
+/* Homepage Image Section */
+
+.image-section {
+    overflow: hidden;
+    max-height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-section .container .image-content {
+    text-align: center;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-section .container .image-content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image-section .container .image-content a{
+    transition-duration: 0.4s;
+    background-color: #3D6995;
+    color: white;
+    border: 2px solid white;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    padding:15px 50px;
+    margin: 0px 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+      
+.image-section .container .image-content a:hover {
+    background-color: #1C4670 ;
+    color: white;
+}
+
+/* GAME PAGE SECTION */
+
+/* Title Section */
+.title-section .container .title {
+    text-align: center;
+}
+
+.title-section .container .title h1{
+    color: #EDEDED;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+i {
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #EDEDED;
+    margin-bottom: 20px;
+  }
+
+  /* Results Section */
+.results-section .container .results {
+    text-align: center;
+}
+
+.results-section .container .results h1{
+    color: #EDEDED;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+
+.background-section {
+    overflow: hidden;
+    max-height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
