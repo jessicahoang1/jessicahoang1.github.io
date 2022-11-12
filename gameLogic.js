@@ -196,8 +196,6 @@ function storeWinners() {
         localStorage.setItem('Results', "Player 2!")
     } else if (scorePlayer3 > scorePlayer1 && scorePlayer3 > scorePlayer2) {
         localStorage.setItem('Results', "Player 3!")
-    } else if (scorePlayer3 == scorePlayer2 == scorePlayer1) {
-        localStorage.setItem('Results', "A TIE: Player 1, Player 2 and Player3!")
     }
 
     // store the scores into local storage 
